@@ -53,19 +53,23 @@
     }
 
     .heading {
-        width: 39rem;
-        margin-left: 0rem;
+        width: 35rem;
+        margin-left: 2rem;
     }
 
     .inputPageOne {
-        width: 38rem ;
-        margin-left: 1rem ;
+        width: 35rem ;
+        margin-left: 2rem ;
         margin-top: 26rem ;
     }
 
     .inputField {
         padding-left: 2rem ;
-        width: 25rem ;
+        width: 21rem ;
+    }
+
+    .findButton {
+        width: 10rem;
     }
 
     .hireArea {
@@ -88,8 +92,9 @@
     }
 
     .subHeading p {
-        width: 41rem ;
+        width: 35rem ;
         height: 7.6rem ;
+        margin-left: 2rem;
     }
 
     .workCycle {
@@ -113,5 +118,16 @@
         z-index: -1;
     }
 
+    .getConnected {
+        width: 36rem;
+    }
+
+    .emailInput {
+        width: 23rem;
+    }
+
+    .detailToConnect p {
+        display: inline;
+    }
 
 }
