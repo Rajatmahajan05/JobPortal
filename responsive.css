@@ -54,12 +54,16 @@
 
     .heading {
         width: 35rem;
-        margin-left: 4rem;
+        margin-left: 2rem;
+    }
+
+    .heading h1 {
+        font-size: 4rem;
     }
 
     .inputPageOne {
-        width: 35rem ;
-        margin-left: 3rem ;
+        width: 33rem ;
+        margin-left: 2rem ;
         margin-top: 26rem ;
     }
 
@@ -94,7 +98,7 @@
     .subHeading p {
         width: 35rem ;
         height: 7.6rem ;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .workCycle {
