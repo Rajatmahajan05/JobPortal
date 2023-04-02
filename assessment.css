@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1rem =10px */
+}
+
+.outerDiv {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    height: 8.6rem;
+    filter: drop-shadow(0 0 5px rgba(0,22,27,0.1));
+}
+
+.innerDiv {
+    display: flex;
+    gap: 3rem;
+}
+
+.logo img {
+    width: 4.8rem;
+}
+
+.mobile-links, .rightNav {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.mobile-links, .login {
+    padding-top: 1.5rem;
+}
+
+.login, a {
+    text-decoration: none;
+    color: #404f54;
+    font-weight: 400;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+}
+
+#postAJob {
+    opacity: 0.500;
+    font-size: 1.2rem;
+    color: #404f54;
+    font-weight: 700;
+    font-family: "Open Sans";
+    width: 15rem;
+    height: 4rem;
+    border-radius: 19px;
+    background-color: #ffffff;
+    border: 2px solid #404f54;
+}
+
+.addOnLinks {
+    display: none;
+}
+
+
+.pageOne {
+    background-image: url(./images/replace\ image.png);
+    background-repeat: no-repeat;
+    background-size: 135.5rem;
+    height: 55rem;
+    position: relative;
+}
+
+.inputPageOne, .heading {
+    position: absolute;
+}
+
+.heading {
+    width: 72rem;
+    height: 9rem;
+    text-align: center;
+    margin-left: 33rem;
+    margin-top: 5.5rem;
+}
+
+.heading h1 {
+    font-size: 4.8rem;
+    color: #404f54;
+    font-weight: 700;
+    font-family: "Lora";
+}
+
+.heading p{
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    color: #404f54;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.inputPageOne {
+    display: flex;
+    justify-content: space-between;
+    width: 65rem;
+    height: 5.2rem;
+    margin-left: 37rem;
+    margin-top: 17rem;
+    border-radius: 30px;
+    filter: drop-shadow(0px 5px 5px rgba(0,22,27,0.3));
+    background-color: #ffffff;
+    padding: 0.3rem;
+}
+
+.inputField {
+    opacity: 0.600;
+    padding-left: 5rem;
+    width:30rem;
+    height:4.8rem;
+    border: none;
+    border-radius: 19px;
+    outline: none;
+}
+
+.findButton {
+    color: white;
+    width: 12rem;
+    height: 4.5rem;
+    font-size: 1.2rem;
+    border-radius: 26px;
+    border: none;
+    background-color: #d02184;
+}
+
+.mobile .hamburger {
+    display: none;
+}
+
+.mobile .enclose {
+    display: none;
+}
+
+.pageTwo {
+    padding: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.hireArea {
+    padding-top: 0.5rem;
+    padding-left: 6rem;
+    font-size: 1.4rem;
+    color: #404f54;
+    font-weight: 700;
+    font-family: "Lora";
+}
+
+.workType {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.workType h3 {
+    padding-bottom: 0.5rem;
+    font-size: 1.8rem;
+    color: #1baba1;
+    font-weight: 700;
+    font-family: "Lora";
+}
+
+.workType p {
+    width: 24rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #404f54;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.pageThree {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workSpace {
+    width:50%;
+}
+
+.workSpace  img {
+    width: 100%;
+    height: 45rem;
+}
+
+.aboutDevelopers {
+    background-color: #f4fafa;
+    width: 50%;
+    padding-top: 12rem;
+    padding-left: 8rem;
+}
+
+.pageFour {
+    padding-bottom: 8rem;
+    padding-top: 5rem;
+}
+
+.headingDev h3, .ExpertsHeading h3, .ExpertsHeading{
+    font-size: 1.9rem;
+    color: #404f54;
+    font-weight: 700;
+    font-family: "Lora";
+}
+
+.aboutDev p, .subHeading {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #404f54;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+.readMore h4 {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #1baba1;
+    font-weight: 700;
+    font-family: "Open Sans";
+
+}
+
+.ExpertsHeading, .subHeading {
+    text-align: center;
+}
+
+.ExpertsHeading h2 {
+    font-size: 3.2rem;
+    line-height: 4.2rem;
+
+}
+
+.subHeading p {
+    width: 134rem;
+    height: 1.6rem;
+    font-size: 1.8rem;
+    padding-bottom: 5.5rem;
+
+}
+
+.headingDev, .aboutDev, .ExpertsHeading, .cart img{
+    padding-bottom: 1.2rem;
+}
+
+.categories, .availablePlans, .reviews, .pageEight, .topCompanies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cart img {
+    padding-top: 3rem;
+}
+
+.cart{
+    background-color: #ffffff;
+    text-align: center;
+    margin: 1%; 
+    height: 24rem;
+}
+
+.mobileDev {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+.cart p, .workCycle p{
+    width: 23rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #404f54;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.forBorderBottom {
+    border-bottom: 2px solid #dddddd;
+
+}
+
+.forBorderLeftRight {
+    border-left: 2px solid #dddddd;
+    border-right: 2px solid #dddddd;
+    /* line-height:50px; */
+}
+
+.categorybttn {
+    text-align: center;
+}
+.allCategory {
+    width: 18rem;
+}
+
+.pageFive, .pageSeven {
+    padding-top: 5rem;
+    background-color: #f4fafa;
+    padding-bottom: 9rem;
+}
+
+.workCycle hr {
+    height: 3px;
+    width: 25%;
+    background-color: #d02184;
+    color: #d02184;
+    margin-top: 8%;
+    margin-left: 37%;
+    margin-bottom: 5%;
+}
+
+.workCycle  {
+    text-align: center;
+    margin: 0.5%; 
+}
+
+.findImg img {
+    width: 11.5rem;
+}
+
+.hireImg img {
+    width: 12.7rem;
+}
+
+.payImg img {
+    width: 9.5rem;
+}
+
+.pageSix {
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+.plan, .mediumPlan{
+    padding: 3.5rem;
+    text-align: center;
+}
+
+.completePlan{
+    width: 28rem;
+    margin: 1%;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    font-weight: 400;
+    font-family: "Open Sans";
+
+}
+
+.plan{
+    background-color: #f4fafa;
+
+}
+
+.mediumPlan {
+    background-color: #d02184;
+    color: white;
+
+}
+
+.additionalSpecification {
+    filter: drop-shadow(-0.262px 4.993px 25px rgba(115,115,115,0.15));
+}
+
+.plan p, .mediumPlan p{
+    padding-bottom:2rem;
+}
+
+.completePlan b {
+    padding: 1rem;
+    font-size: 5.3rem;
+    line-height: 3rem;
+    font-weight: 700;
+    font-family: "Roboto";
+
+}
+
+.completePlan p1 {
+    font-size: 1.8rem;
+}
+.plan b {
+    color:#d02184;
+}
+
+.planAdvantages {
+    padding: 4rem;
+    padding-left: 7rem;
+    line-height: 3.8rem;
+}
+
+.johnDee {
+    background-color: #f4fafa;
+    margin: 2.5rem;
+    text-align: center;
+
+}
+
+.aboutJohnDee {
+    width: 26rem;
+    padding-top: 1rem;
+
+}
+
+.aboutJohnDee p {
+
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #404f54;
+}
+
+.aboutJohnDee h5 {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #1baba1;
+}
+
+/* .johnColorEffects {
+    padding-top: 8rem;
+    filter: drop-shadow(0px 9px 8px rgba(0,11,30,0.04));
+    background-color: #1baba1;
+    color:#ffffff;
+} */
+
+/* .johnColorEffects h5{
+    color:#ffffff;
+} */
+
+#smilingMan {
+    object-fit: cover;
+    object-position: center;
+}
+
+.topCompanies img {
+    padding-right: 9rem;
+    padding-left: 9rem;
+    padding-top: 2rem;
+}
+
+.getconnected, .blogs, .instagram {
+    margin: 2%;
+}
+
+.blogs {
+    padding-left: 1.5rem;
+}
+
+.getConnected {
+    padding-top: 3.5rem;
+}
+
+.detailToConnect, .linkToConnect{
+    color: #404f54;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #404f54;
+}
+
+.linkToConnect img {
+    padding-left: 1.3rem;
+}
+
+.blogs, .getConnected {
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.blogs p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-transform: uppercase;
+    color: #404f54;
+
+}
+
+.blogs p3, .instagram p3 {
+    font-size: 1.1rem;
+    color: #404f54;
+}
+
+.themeBlog img {
+    height: 7rem;
+}
+
+.themeBlog p4 {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+    color: #d02184;
+
+}
+
+.themeBlog {
+    padding-bottom: 1.5rem;
+}
+
+.aboutPost {
+    padding: 2rem;
+}
+
+.themeBlog, .postImages{
+    display: flex;
+}
+
+.nature {
+    margin:0.1rem;
+}
+
+.nature img {
+    height: 8rem;
+}
+
+.allPictures, .postImages {
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.pageEight {
+    padding-top: 4rem;
+}
+
+.subscribe {
+    border: 1px solid;
+    display: inline-flex;
+    border-color: #dfdfdf;
+}
+
+.emailInput {
+    opacity: 0.600;
+    padding-left: 0.5rem;
+    width:25rem;
+    height:3.8rem;
+    border: none;
+    border-radius: 19px;
+    outline: none;
+}
+
+.subscribeButton {
+    color: white;
+    width: 12.5rem;
+    height: 3.8rem;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #d02184;
+
+}
+
+.copyRight {
+    font-size: 1.2rem;
+    color: #1baba1;
+    padding-bottom: 6rem;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}

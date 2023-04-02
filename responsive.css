@@ -1,0 +1,117 @@
+@media screen and (min-width: 300px) and (max-width:480px) {
+
+    body {
+        width:100%;
+    }
+
+    .mobile .mobile-links {
+        flex-direction: column;
+        padding-right: 18vw;
+        padding-top: 3vw;
+        gap: 3rem;
+    }
+
+    .mobile .hamburger {
+        display: block;
+    }
+
+    .rightNav {
+        display: none;
+    }
+
+    .mobile .enclose {
+        display: none;
+    }
+
+    .mobile .hamburger i {
+        margin-left: 45vw;
+        z-index: 3;
+        position: relative;
+        font-size: 3rem;
+    }
+
+    ul {
+        background-color: #f3f3f3;
+        ;
+        color: rgb(66, 60, 60);
+        position: absolute;
+        top: 88px;
+        right: 0;
+        z-index: 3;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .addOnLinks {
+        display: block;
+    }
+
+    input[type='checkbox']:checked~.links {
+        display: block;
+    }
+
+    .heading {
+        width: 39rem;
+        margin-left: 0rem;
+    }
+
+    .inputPageOne {
+        width: 38rem ;
+        margin-left: 1rem ;
+        margin-top: 26rem ;
+    }
+
+    .inputField {
+        padding-left: 2rem ;
+        width: 25rem ;
+    }
+
+    .hireArea {
+        margin-left: -11rem ;
+        padding-left: 0rem ;
+        padding-bottom: 2rem ;
+    }
+
+    .readMore h4 {
+        padding-bottom: 2rem;
+    }
+
+    .aboutDev p {
+        display: inline;
+
+    }
+
+    .workScopes {
+        padding-bottom: 1.8rem ;
+    }
+
+    .subHeading p {
+        width: 41rem ;
+        height: 7.6rem ;
+    }
+
+    .workCycle {
+        padding-bottom: 5rem;
+        
+    }
+
+    .workSpace img {
+        width: 200% ;
+        height: 28rem ;
+    }
+
+    .aboutDevelopers {
+        width: 100% ;
+        padding-top: 6rem ;
+        padding-left: 4rem ;
+    }
+
+    .pageOne {
+        background-position-x: -46rem;
+        z-index: -1;
+    }
+
+
+}
