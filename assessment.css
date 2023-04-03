@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 html {
     font-size: 62.5%;
     /* 1rem =10px */
@@ -242,6 +246,11 @@ header hr {
     padding-left: 8rem;
 }
 
+.hovRead:hover {
+    color: black;
+    cursor: pointer;
+}
+
 .pageFour {
     padding-bottom: 8rem;
     padding-top: 5rem;
@@ -287,7 +296,16 @@ header hr {
     height: 1.6rem;
     font-size: 1.8rem;
     padding-bottom: 5.5rem;
+}
 
+.hovFlip {
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
 }
 
 .headingDev, .aboutDev, .ExpertsHeading, .cart img{
@@ -408,18 +426,6 @@ header hr {
     line-height: 3rem;
     font-weight: 400;
     font-family: "Open Sans";
-    animation: blinker 3s linear infinite;
-
-}
-
-
-@keyframes blinker{
-
- 50% {
-
-opacity: 30%;
-
-} 
 
 }
 
@@ -497,6 +503,9 @@ opacity: 30%;
     padding-top: 4rem;
 }
 
+.aboutJohnDee:hover  .allName{
+    color: white;
+}
 .aboutJohnDee :hover{
     background-color: #1baba1;
     color: white;
@@ -637,11 +646,11 @@ opacity: 30%;
 
 }
 
-.nature img, .themeBlog, .linkToConnect img{
+.nature img, .themeBlog, .linkToConnect img, .completePlan{
     -webkit-transition: all .2s ease-in-out;
 }
 
-.nature img:hover, .themeBlog:hover, .linkToConnect img:hover {
+.nature img:hover, .themeBlog:hover, .linkToConnect img:hover, .completePlan:hover {
     -webkit-transform: scale(1.2);
 }
 
