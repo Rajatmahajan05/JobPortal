@@ -637,6 +637,14 @@ opacity: 30%;
 
 }
 
+.nature img, .themeBlog, .linkToConnect img{
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.nature img:hover, .themeBlog:hover, .linkToConnect img:hover {
+    -webkit-transform: scale(1.2);
+}
+
 .copyRight {
     font-size: 1.2rem;
     color: #1baba1;
