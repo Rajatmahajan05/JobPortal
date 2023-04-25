@@ -256,6 +256,8 @@ header hr {
     padding-top: 5rem;
 }
 
+/********************Mutiple classes sharing same style*******************/
+
 .headingDev h3, .ExpertsHeading h3, .ExpertsHeading{
     font-size: 1.9rem;
     color: #404f54;
@@ -308,10 +310,12 @@ header hr {
     }
 }
 
+/********************Mutiple classes sharing same style*******************/
 .headingDev, .aboutDev, .ExpertsHeading, .cart img{
     padding-bottom: 1.2rem;
 }
 
+/********************Mutiple classes sharing same style*******************/
 .categories, .availablePlans, .reviews, .pageEight, .topCompanies{
     display: flex;
     flex-wrap: wrap;
@@ -366,7 +370,6 @@ header hr {
 .forBorderLeftRight {
     border-left: 2px solid #dddddd;
     border-right: 2px solid #dddddd;
-    /* line-height:50px; */
 }
 
 .categorybttn {
@@ -646,9 +649,13 @@ header hr {
 
 }
 
+/********************Mutiple classes sharing same style*******************/
+
 .nature img, .themeBlog, .linkToConnect img, .completePlan{
     -webkit-transition: all .2s ease-in-out;
 }
+
+/********************Mutiple classes sharing same style*******************/
 
 .nature img:hover, .themeBlog:hover, .linkToConnect img:hover, .completePlan:hover {
     -webkit-transform: scale(1.2);
